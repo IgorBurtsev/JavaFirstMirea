@@ -33,6 +33,7 @@ public class SortGeneratedArray {
         System.out.println();
         System.out.println();
         array.removeAll(array);
+
         //Генерация классом Random
         System.out.println("Массив, сгенерированный классом Random:");
         Random generator = new Random();
