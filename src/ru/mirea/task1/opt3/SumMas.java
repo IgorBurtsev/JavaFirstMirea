@@ -2,7 +2,6 @@ package ru.mirea.task1.opt3;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
 public class SumMas {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -16,13 +15,29 @@ public class SumMas {
             array.add(scan.nextInt());
             if (i!=n-1) System.out.print(" + ");
         }
-        int sum = 0;
+        int sumFor = 0, sumWhile=0, sumDoWhile=0;
+
+        for (i=0; i<n; i++) {
+            sumFor += array.get(i);
+        }
+
         i = 0;
         while (i < n) {
-            sum += array.get(i);
+            sumWhile += array.get(i);
             i++;
         }
-        System.out.print("Сума элементов массива равна: ");
-        System.out.print(sum);
+
+        i = 0;
+        do {
+            sumDoWhile +=array.get(i);
+            i++;
+        } while (i<n);
+
+        System.out.print("Сумма элементов массива через цикл for: ");
+        System.out.println(sumFor);
+        System.out.print("Сумма элементов массива через цикл while: ");
+        System.out.println(sumWhile);
+        System.out.print("Сума элементов массива через цикл do while: ");
+        System.out.print(sumDoWhile);
     }
 }
