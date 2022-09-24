@@ -18,10 +18,9 @@ public class Book {
     }
 
     public String toString() {
-        System.out.println("The work of the " + title
+        return("The work of the " + title
                 + " was written by " + author
                 + " and contains " + pages + " pages");
-        return null;
     }
 }
 

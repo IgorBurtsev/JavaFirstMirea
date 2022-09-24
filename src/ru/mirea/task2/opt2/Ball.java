@@ -18,8 +18,7 @@ public class Ball {
     }
 
     public String toString() {
-        System.out.println("The ball is " + color + " with a " + pattern + " pattern and it's volume equals " + volume);
-        return null;
+        return("The ball is " + color + " with a " + pattern + " pattern and it's volume equals " + volume);
     }
 }
 
