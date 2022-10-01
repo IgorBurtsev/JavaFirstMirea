@@ -4,6 +4,6 @@ public class TestAuthor {
     public static void main(String[] args) {
         Author author = new Author("Николай Гоголь", "gogol@mail.ru", 'm');
         author.setEmail("gogol-kolya@gmail.com");
-        System.out.println(author.toString());
+        System.out.println(author);
     }
 }
