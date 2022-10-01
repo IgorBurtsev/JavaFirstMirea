@@ -1,4 +1,4 @@
-package ru.mirea.task1.opt7;
+package ru.mirea.lab1.opt5;
 
 import java.math.BigInteger;
 import java.util.Scanner;

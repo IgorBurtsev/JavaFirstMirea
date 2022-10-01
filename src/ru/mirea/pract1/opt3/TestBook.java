@@ -1,4 +1,4 @@
-package ru.mirea.task2.opt3;
+package ru.mirea.pract1.opt3;
 
 public class TestBook {
     public static void main (String[] args) {

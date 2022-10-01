@@ -1,4 +1,4 @@
-package ru.mirea.task1.opt5;
+package ru.mirea.lab1.opt3;
 
 public class HarmonicSeries {
     public static void main(String[] args) {

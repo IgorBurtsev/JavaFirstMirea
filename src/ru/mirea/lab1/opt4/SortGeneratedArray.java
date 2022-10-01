@@ -1,4 +1,4 @@
-package ru.mirea.task1.opt6;
+package ru.mirea.lab1.opt4;
 
 import java.lang.Math;
 import java.util.ArrayList;

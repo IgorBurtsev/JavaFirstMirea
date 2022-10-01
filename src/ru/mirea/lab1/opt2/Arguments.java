@@ -1,4 +1,4 @@
-package ru.mirea.task1.opt4;
+package ru.mirea.lab1.opt2;
 
 public class Arguments {
     public static void main(String[] args){
