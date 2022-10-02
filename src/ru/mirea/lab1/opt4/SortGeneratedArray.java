@@ -11,7 +11,7 @@ public class SortGeneratedArray {
     ArrayList<Integer> array = new ArrayList<>();
 
     public void setAmount() {
-        System.out.println("Введите размер массива: ");
+        System.out.print("Введите размер массива: ");
         this.n = scan.nextInt();
     }
 

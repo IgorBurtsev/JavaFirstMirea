@@ -4,15 +4,24 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Factorial {
-    public static void main (String[] args) {
+
+    private int n;
+
+    public void setNumber() {
         Scanner scan = new Scanner(System.in);
         System.out.print ("Введите число: ");
-        int n = scan.nextInt();
-        System.out.print("Факториал числа " + n + " равен: " + factorial(n));
+        this.n = scan.nextInt();
     }
-    public static BigInteger factorial(int n){
+
+    public BigInteger factorial(){
         BigInteger factor = BigInteger.ONE;
-        for (int i=1; i<=n; i++) factor = factor.multiply(BigInteger.valueOf(i));
+        for (int i=1; i<=n; i++) {
+            factor = factor.multiply(BigInteger.valueOf(i));
+        }
         return factor;
+    }
+
+    public String toString() {
+        return "Факториал числа " + n + " равен: " + factorial();
     }
 }
